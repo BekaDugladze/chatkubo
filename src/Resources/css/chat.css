@@ -1,0 +1,138 @@
+@import url('./chat.css');
+@import url('./message.css');
+@import url('./search.css');
+@import url('./user.css');
+#chat{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #EAF3FA;
+    height: 100vh;
+    max-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#chat h1{
+    color: rgb(43, 71, 137);
+    font-family: 'Inter', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.personal{
+    height: 100vh;
+}
+.chatOne, .chatTwo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+    margin: 0 0.5vw;
+    border-radius: 20px;
+    max-height: 100vh;
+    overflow: hidden;
+}
+.chatOne{
+    max-width: 350px;
+    align-items: space-between;
+}
+.chatTwo{
+    justify-content: space-between;
+    align-items: center;
+}
+.chatOne h1{
+    text-align: center;
+    margin: 4vh 0;
+}
+.moreInfo{
+    color: rgb(43, 71, 137);
+    font-family: 'Inter', sans-serif;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+#logout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    font-size: 18px;
+    border: none;
+    border-radius: 75%;
+    cursor: pointer;
+    color: #9B4444;
+    margin: 0 5px;
+}
+#add{
+    position: inherit;
+    transform: translate(-150%, 100%);
+    background: white;
+    border: 1px solid rgb(43, 71, 137);
+    border-radius: 75%;
+    padding: 1px 2px;
+    cursor: pointer;
+}
+.chat-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.headbut{
+    font-size: 18px;
+    color: rgb(43, 71, 137);
+    background: none;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 0 1vw;
+}
+.chat-head h3, .chat-head img{
+    margin: 2vh 1vw;
+    color: rgb(43, 71, 137);
+    font-family: 'Inter', sans-serif;
+}
+.hp{
+    width: 100%;
+    text-align: center;
+}
+.hp p{
+    color: rgb(43, 71, 137);
+    margin: 3px 0;
+}
+.navBut{
+    background: none;
+    padding: 2px 6px;
+    font-family: 'Inter', sans-serif;
+    color: rgb(43, 71, 137);
+    font-weight: 400;
+}
+.navButChat{
+    justify-content: space-around;
+    margin: 1vh 0;
+}
+#changePic{
+    border-radius: 25px;
+    margin: 0 15px;
+}
+.changePic{
+    margin: 0 15px;
+}
+.changePic input, .changePic button{
+    margin: 5px 0;
+}
+.changePic input{
+    max-width: 90px;
+    background-color: white;
+    border: none;
+}
+.changePic button{
+    background: rgb(43, 71, 137);
+    color: white;
+    padding: 5px 10px;
+}
+.pers-p{
+    margin: 5px 0;
+    color: rgb(43, 71, 137);
+}

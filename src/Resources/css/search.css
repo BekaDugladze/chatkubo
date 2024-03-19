@@ -1,0 +1,22 @@
+
+#search{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 0;
+}
+#search input{
+    border: 1px solid rgb(43, 71, 137);
+    padding: 3px 9px;
+    border-radius: 25px;
+    margin: 0 5px;
+}
+#search input:focus{
+    outline: 1px solid rgb(43, 71, 137);
+}
+#search button{
+    color: rgb(43, 71, 137);
+    font-size: 17px;
+    background: none;
+}

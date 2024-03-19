@@ -1,0 +1,55 @@
+.normBut{
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+.p{
+    font-family: 'Inter', sans-serif;
+    color: rgb(43, 71, 137);
+    font-weight: 400;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+.width{
+    width: 100%;
+}
+@keyframes loader {
+    0%{
+        transform: translateY(-30%);
+    }
+    100%{
+        transform: translateY(30%);
+    }
+}
+.center{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: bold;
+}
